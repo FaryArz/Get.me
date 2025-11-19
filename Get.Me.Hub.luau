@@ -27,6 +27,6 @@ local Games = Window:AddMenu({
 Games:AddButton({
 	Name = "Clasher Royale",
 	Callback = function(value)
-        loadstring(game:HttpGet(""))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FaryArz/Clasher-Royale/refs/heads/main/Clasher_Royale.luau"))()
 	end,
 })
