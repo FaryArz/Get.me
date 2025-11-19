@@ -19,6 +19,11 @@ local Window = Fatality.new({
     Expire = "Free Sub",
 })
 
+local Menu = Window:AddMenu({
+    Name = "Games",
+    Icon = "skull"
+})
+
 local Section = Window:AddSection({
     Position = 'left', -- left , center , right
     Name = "Games"
