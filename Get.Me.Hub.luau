@@ -24,7 +24,7 @@ local Menu = Window:AddMenu({
     Icon = "skull"
 })
 
-local Section = Window:AddSection({
+local Section = Menu:AddSection({
     Position = 'left', -- left , center , right
     Name = "Games"
 })
