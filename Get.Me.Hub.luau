@@ -19,12 +19,12 @@ local Window = Fatality.new({
 	Expire = "Free Sub",
 });
 
-local Games = Window:AddMenu({
-    Name = "Games",
-    Icon = "skull"
-})
+local Section = Menu:AddSection({
+    Position = 'left', -- left , center , right
+    Name = "Games"
+});
 
-Games:AddButton({
+Section:AddButton({
 	Name = "Clasher Royale",
 	Callback = function(value)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FaryArz/Clasher-Royale/refs/heads/main/Clasher_Royale.luau"))()
